@@ -4,7 +4,7 @@ This is our submission for Hashcode 2021, organized by Google.
 
 We obtained 9.801.796 points on regular time.
 
-![](images\table.PNG)
+![images\table.PNG](/images/table.PNG)
 
 We are waiting for extra submission because we added features in the last minute, so :(
 
