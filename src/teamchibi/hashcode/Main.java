@@ -1,7 +1,9 @@
 package teamchibi.hashcode;
 
-import teamchibi.hashcode.input.*;
-import teamchibi.hashcode.output.*;
+import teamchibi.hashcode.input.InputCase;
+import teamchibi.hashcode.input.InputReader;
+import teamchibi.hashcode.output.OutputCase;
+import teamchibi.hashcode.output.OutputWriter;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -28,8 +30,7 @@ public class Main
         inputScenarios = new ArrayList<>();
         try
         {
-            Files.walk(Paths.get(INPUT_PATH)).forEach(ruta->
-            {
+            Files.walk(Paths.get(INPUT_PATH)).forEach(ruta -> {
                 if (Files.isRegularFile(ruta))
                 {
                     InputReader ir;
@@ -53,7 +54,7 @@ public class Main
             e.printStackTrace(System.err);
         }
 
-        for(InputCase actualScenario : inputScenarios) //resolve each scenario
+        for (InputCase actualScenario : inputScenarios) //resolve each scenario
         {
             OutputCase solution = null;
             System.out.println("Resolving scenario " + actualScenario.getPath());

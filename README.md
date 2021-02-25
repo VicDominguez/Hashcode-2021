@@ -1,14 +1,16 @@
-# Hash Code Java template
+# Team Chibi Hashcode 2021
 
-This is the Team Chibi's template, written in Java, to resolve Hash Code competition problems. 
+This is our submission for Hashcode 2021, organized by Google.
 
-Hash Code is an annual team programming competition, organized by Google. More details at their [official site](https://codingcompetitions.withgoogle.com/hashcode/).
+We obtained 9.801.796 points on regular time.
 
+![](images\table.PNG)
 
-This template helps with basic input output where the programmer only has to worry about the input and output attributes of the particular problem;
-helping coders to focus only on the algorithm.
+We are waiting for extra submission because we added features in the last minute, so :(
 
+If you liked it, check our LinkedIn profiles:
 
-This template was only used in the 2020 edition, so it can be improved and should be used as a reference
+* [Víctor Manuel Domínguez Rivas](https://www.linkedin.com/in/víctor-manuel-domínguez-rivas/?originalSubdomain=es)
+* [Rocío Hinojosa Merlo](https://www.linkedin.com/in/rocío-hinojosa-merlo-200280162/)
+* [Juan Luis Moreno Sancho](https://www.linkedin.com/in/juan-luis-moreno-sancho-94527117a/)
 
-See you there and happy coding :)
